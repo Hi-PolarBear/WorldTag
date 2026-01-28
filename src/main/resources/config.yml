@@ -1,7 +1,6 @@
 # WorldTag Plugin Configuration File
 # WorldTag 插件配置文件
-# Plugin Author Nice_Cam_ customized for Luniverse_vix
-# 插件作者 Nice_Cam_ 为 Luniverse_vix 定制
+# 插件作者 Nice_Cam_  Luniverse_vix
 # Format: world folder name:
 # 格式：世界文件夹名:
 # name: Display name
@@ -17,18 +16,18 @@ worlds:
   # Main overworld configuration
   # 主世界配置
   world:
-    name: 主世界        # World tag can be modified here / 此处可以修改世界标签
-    color: GREEN       # Color for this world tag / 此世界标签的颜色
+    name: "主世界"        # World tag can be modified here / 此处可以修改世界标签
+    color: "GREEN"       # Color for this world tag / 此世界标签的颜色
   # Nether world configuration
   # 下界配置
   world_nether:
-    name: 下界          # World tag can be modified here / 此处可以修改世界标签
-    color: RED         # Color for this world tag / 此世界标签的颜色
+    name: "下界"          # World tag can be modified here / 此处可以修改世界标签
+    color: "RED"         # Color for this world tag / 此世界标签的颜色
   # End world configuration
   # 末地配置
   world_the_end:
-    name: 末地          # World tag can be modified here / 此处可以修改世界标签
-    color: BLUE      # Color for this world tag / 此世界标签的颜色
+    name: "末地"          # World tag can be modified here / 此处可以修改世界标签
+    color: "BLUE"      # Color for this world tag / 此世界标签的颜色
 
   # You can add more world mappings here
   # 可以在下方添加更多世界标签
