@@ -1,0 +1,41 @@
+# WorldTag Plugin Configuration File
+# WorldTag 插件配置文件
+# Plugin Author Nice_Cam_ customized for Luniverse_vix
+# 插件作者 Nice_Cam_ 为 Luniverse_vix 定制
+# Format: world folder name:
+# 格式：世界文件夹名:
+# name: Display name
+# name: 显示名称
+# color: Color code (supports Bukkit color enums like WHITE, RED, GREEN, BLUE, etc.)
+# color: 颜色代码（支持 WHITE, RED, GREEN, BLUE 等 Bukkit 颜色枚举）
+# worlds: World configuration section
+# worlds: 世界配置部分
+# default: Default settings section (optional)
+# default: 默认设置部分（可选）
+
+worlds:
+  # Main overworld configuration
+  # 主世界配置
+  world:
+    name: 主世界        # World tag can be modified here / 此处可以修改世界标签
+    color: GREEN       # Color for this world tag / 此世界标签的颜色
+  # Nether world configuration
+  # 下界配置
+  world_nether:
+    name: 下界          # World tag can be modified here / 此处可以修改世界标签
+    color: RED         # Color for this world tag / 此世界标签的颜色
+  # End world configuration
+  # 末地配置
+  world_the_end:
+    name: 末地          # World tag can be modified here / 此处可以修改世界标签
+    color: PURPLE      # Color for this world tag / 此世界标签的颜色
+
+  # You can add more world mappings here
+  # 可以在下方添加更多世界标签
+
+
+default:
+  # Default settings when a world is not configured
+  # 当世界未被配置时的默认设置
+  unknown_world_text: "未知"     # Chinese text for unconfigured worlds / 未配置世界时显示的中文文本
+  unknown_world_color: "GRAY"    # Color for unconfigured world tags / 未配置世界标签的颜色
