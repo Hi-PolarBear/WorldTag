@@ -1,7 +1,9 @@
 # Detailed Introduction to Minecraft WorldTag Plugin
 ![WorldTag's Logo](https://cdn.modrinth.com/data/cached_images/cfd7bc630d8620751f96d851c41462fcdfd5ae2c_0.webp)
 WorldTag is a lightweight identification plugin specially developed for Minecraft servers. Its core positioning is to realize the associated visualization of players' names and their current worlds, while balancing practicality, convenience and server performance optimization. It does not rely on any redundant dependency plugins, supports the deployment of Minecraft servers of all scales, provides server administrators with an efficient and flexible world identification management solution, and enhances the interactive experience between players.
+## Where can I use WorldTag?
 
+<img src="https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40intergrav%2Fdevins-badges%403%2Fassets%2Fcozy%2Fsupported%2Fbukkit_vector.svg&n=-1" alt="bukkit"> <img src="https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40intergrav%2Fdevins-badges%403%2Fassets%2Fcozy%2Fsupported%2Fspigot_vector.svg&n=-1" alt="spigot"> <img src="https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40intergrav%2Fdevins-badges%403%2Fassets%2Fcozy%2Fsupported%2Fpaper_vector.svg&n=-1" alt="paper"> <img src="https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40intergrav%2Fdevins-badges%403%2Fassets%2Fcozy%2Fsupported%2Fpurpur_vector.svg&n=-1" alt="purpur"></p>
 ## Detailed Explanation of Core Features
 As a dedicated plugin focusing on world identification display, WorldTag abandons redundant functions and focuses on the accurate implementation of core needs. Every function is optimized and designed to balance ease of use and stability.
 
