@@ -14,7 +14,7 @@ public class ChatListener implements Listener {
     public void onPlayerChat(AsyncPlayerChatEvent event) {
         Player player = event.getPlayer();
         if (player == null) {
-            return; // 防止玩家为空
+            return;
         }
 
         String worldName = player.getWorld().getName();

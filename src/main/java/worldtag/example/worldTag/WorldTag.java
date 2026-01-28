@@ -8,7 +8,7 @@ public final class WorldTag extends JavaPlugin {
     private static WorldTag instance;
     private static final String LOG_SEPARATOR = "=================================";
     private static final String PLUGIN_NAME = "WorldTag";
-    private static final String VERSION = "1.2.0";
+    private static final String VERSION = "1.2.1";
     private static final String AUTHOR = "Nice_Cam_";
     
     @Override
@@ -16,13 +16,13 @@ public final class WorldTag extends JavaPlugin {
         instance = this;
         
         try {
-            // 加载配置文件
+
             saveDefaultConfig();
             
-            // 注册监听器
+
             getServer().getPluginManager().registerEvents(new ChatListener(), this);
             
-            // 输出启动信息
+
             logStartupMessages();
             
             getLogger().info(PLUGIN_NAME + " 插件启用完成！");
