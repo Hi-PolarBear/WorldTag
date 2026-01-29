@@ -1,40 +1,28 @@
-# WorldTag Plugin Configuration File
-# WorldTag 插件配置文件
-# 插件作者 Nice_Cam_  Luniverse_vix
-# Format: world folder name:
-# 格式：世界文件夹名:
-# name: Display name
-# name: 显示名称
-# color: Color code (supports Bukkit color enums like WHITE, RED, GREEN, BLUE, etc.)
-# color: 颜色代码（支持 WHITE, RED, GREEN, BLUE 等 Bukkit 颜色枚举）
-# worlds: World configuration section
-# worlds: 世界配置部分
-# default: Default settings section (optional)
-# default: 默认设置部分（可选）
+# WorldTag Plugin Configuration File | WorldTag 插件配置文件
+# Author: Nice_Cam_ Luniverse_vix | 插件作者：Nice_Cam_  Luniverse_vix
+# Format: world folder name: | 格式：世界文件夹名:
+# name: Display name with color codes (supports &1-&f, &l format codes)
+# name: 带颜色代码的显示名称（支持&1-&f、&l等格式码）
+# worlds: World configuration section | worlds: 世界配置部分
+# default: Default settings for unconfigured worlds (only keep text, built-in gray color)
+# default: 未配置世界的默认设置（仅保留文本，内置灰色）
 
 worlds:
-  # Main overworld configuration
-  # 主世界配置
+
   world:
-    name: "主世界"        # World tag can be modified here / 此处可以修改世界标签
-    color: "GREEN"       # Color for this world tag / 此世界标签的颜色
-  # Nether world configuration
-  # 下界配置
+    name: "&a主世界"
+
   world_nether:
-    name: "下界"          # World tag can be modified here / 此处可以修改世界标签
-    color: "RED"         # Color for this world tag / 此世界标签的颜色
-  # End world configuration
-  # 末地配置
+    name: "&c下界"
+
   world_the_end:
-    name: "末地"          # World tag can be modified here / 此处可以修改世界标签
-    color: "BLUE"      # Color for this world tag / 此世界标签的颜色
+    name: "&9末地"
 
-  # You can add more world mappings here
-  # 可以在下方添加更多世界标签
-
+  # You can add more world configurations here, example: | 可添加更多世界配置，示例：
+  # custom_world:
+  #   name: "&6自定义世界" | name: "&6Custom World"
 
 default:
-  # Default settings when a world is not configured
-  # 当世界未被配置时的默认设置
-  unknown_world_text: "未知"     # Chinese text for unconfigured worlds / 未配置世界时显示的中文文本
-  unknown_world_color: "GRAY"    # Color for unconfigured world tags / 未配置世界标签的颜色
+  # Default display text for unconfigured worlds (built-in gray, supports custom color codes)
+  # 未配置世界的默认显示文本（内置灰色，支持自定义颜色代码）
+  unknown_world_text: "&7未知"

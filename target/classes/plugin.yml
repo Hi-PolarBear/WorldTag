@@ -1,5 +1,5 @@
 name: WorldTag
-version: '1.2.2'
+version: '1.2.3'
 main: worldtag.example.worldTag.WorldTag
 api-version: '1.21'
 authors: [ Nice_Cam_ Luniverse_vix ]
